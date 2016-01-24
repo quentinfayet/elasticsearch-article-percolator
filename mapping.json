@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "book": {
+      "properties": {
+        "title": {"type": "string"},
+        "content": {"type": "string"},
+        "author": {"type": "string", "index": "not_analyzed"},
+        "released_date": {"type": "date"},
+        "synopsis": {"type": "string"}
+      }
+    }
+  }
+}
